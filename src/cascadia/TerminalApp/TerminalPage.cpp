@@ -1349,8 +1349,8 @@ namespace winrt::TerminalApp::implementation
         }
 
         auto icon = UI::IconPathConverter::IconWUX(iconSource);
-        icon.Width(16);
-        icon.Height(16);
+        icon.Width(32);
+        icon.Height(32);
         Automation::AutomationProperties::SetAccessibilityView(icon, Automation::Peers::AccessibilityView::Raw);
 
         return icon;
